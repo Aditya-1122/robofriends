@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+.grd
+{padding: 0px;
+    margin: 0 auto;
+ display:grid;
+ grid-template-columns: repeat(auto-fill,minmax(200px,300px));
+ justify-content: center;
+ align-items: center;
+
+}
+.centr
+{
+    margin: auto;
+   width: 300px;
+   height:30px;
+   font-size:20px;
+   padding: 20px;;
+
+}
+.fnt
+{    
+    font-family:'SEGA LOGO FONT' ;
+    font-size: 30px;
+   text-align:center;  
+   color:rgb(21, 122, 206);
+}
+@media (max-width:1000px) {
+.fnt{
+    font-size: 0.8em;;
+}  
+.centr
+{
+    width:40vw;
+}  
+}
